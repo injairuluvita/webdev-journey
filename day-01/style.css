@@ -1,0 +1,29 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1,
+h2 {
+  font-family: Georgia, serif;
+  color: #6d28d9;
+}
+a {
+  color: #6d28d9;
+}
+a:hover {
+  color: #4c1d95;
+  text-decoration: none;
+}
+.profile-photo {
+  width: 180px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
