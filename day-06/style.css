@@ -55,3 +55,13 @@ body {
   font-style: italic;
   font-weight: 700;
 }
+.hero-button {
+  display: inline-block;
+  background-color: #6d28d9;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 13px;
+  margin-top: 20px;
+  font-weight: bold;
+}
