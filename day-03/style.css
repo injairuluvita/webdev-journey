@@ -11,8 +11,9 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.7;
+  font-family: 'Brush Script MT', cursive;
+  line-height: 2.1;
+  font-size: 22px;
   max-width: 800px;
   min-height: 100vh;
   margin: 0 auto;
@@ -71,4 +72,13 @@ button {
 button:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4);
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(208, 193, 223, 0.65);
+  font-family: Arial, sans-serif;
+}
+textarea {
+  resize: vertical;
+  min-height: 140px;
 }
