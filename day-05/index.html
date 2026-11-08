@@ -7,6 +7,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header class="store-header">
+  <h1>Creator Store</h1>
+
+  <button
+    id="cart-toggle"
+    type="button"
+    aria-expanded="false"
+    aria-controls="cart-panel"
+  >
+    🛒 Cart (<span id="cart-count">0</span>)
+  </button>
+</header>
+<aside id="cart-panel" class="cart-panel" hidden>
+  <h2>Your Shopping Cart</h2>
+
+  <div id="cart-items">
+    <p id="empty-cart">Your cart is currently empty.</p>
+  </div>
+
+  <div class="cart-summary">
+    <span>Subtotal</span>
+    <strong id="cart-total">KSh 0</strong>
+  </div>
+
+  <button id="clear-cart" type="button">
+    Clear Cart
+  </button>
+</aside>
     <div class="card-list">
       <article class="card">
         <img
@@ -20,7 +48,15 @@
             A tripod, LED light, clip-on microphone and Bluetooth remote
             shutter, everything you need to start filming.
           </p>
-          <button type="button">Add to Cart</button>
+          <button
+  class="add-to-cart"
+  type="button"
+  data-product-id="creator-starter-pack"
+  data-product-name="Creator Starter Pack"
+  data-product-price="2499"
+>
+  Add to Cart
+</button>
         </div>
       </article>
       <article class="card">
@@ -36,9 +72,18 @@
             Lightning receivers, windshields, and essential connection
             accessories.
           </p>
-          <button type="button">Add to Cart</button>
+         <button
+  class="add-to-cart"
+  type="button"
+  data-product-id="creator-audio-pack"
+  data-product-name="Creator Audio Pack"
+  data-product-price="1799"
+>
+  Add to Cart
+</button>
         </div>
       </article>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
