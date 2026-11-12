@@ -5,9 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Injairu Luvita</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../navigation.css" />
   </head>
 
   <body>
+    <nav class="site-header">
+      <a href="../index.html" class="logo">INJAIRU.</a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+        type="button"
+      >
+        ☰
+      </button>
+
+      <div class="main-nav" id="main-navigation">
+        <a href="../index.html">Home</a>
+        <a href="index.html">About</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../day-04/index.html">Articles</a>
+        <a href="../day-02/index.html">Recipes</a>
+        <a href="../day-03/index.html">Contact</a>
+      </div>
+    </nav>
     <header>
       <h1>Injairu Luvita</h1>
       <img
@@ -16,7 +39,8 @@
         class="profile-photo"
       />
       <p class="developer-tagline">
-        Web Developer | Research & Content Writer | AI Tools Specialist</p>
+        Web Developer | Research & Content Writer | AI Tools Specialist
+      </p>
     </header>
 
     <main>
@@ -24,11 +48,11 @@
         <h2>About Me</h2>
         <p>
           I’m a mathematics and computer science student learning web
-          development. I build simple pages with HTML and CSS, I’m currently
-          learning JavaScript, and I also know the basics of C. Alongside
-          coding, I do research, content writing and AI-assisted work. I’m
-          looking for small web projects where I can build clean, simple sites
-          for real people.
+          development. I build simple pages with HTML and CSS and a little bit
+          of JavaScript, I’m currently learning JavaScript, and I also know the
+          basics of C. Alongside coding, I do research, content writing and
+          AI-assisted work. I’m looking for small web projects where I can build
+          clean, simple sites for real people.
         </p>
       </section>
 
@@ -43,6 +67,7 @@
           <li>CSS</li>
           <li>JavaScript</li>
           <li>C programming</li>
+          <li>Data Annotation</li>
         </ul>
       </section>
 
@@ -58,5 +83,7 @@
     <footer>
       <p>&copy; 2026 Injairu Luvita. All rights reserved.</p>
     </footer>
+
+    <script src="../navigation.js"></script>
   </body>
 </html>

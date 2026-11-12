@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../navigation.css" />
   </head>
   <body>
+    <nav class="site-header">
+      <a href="../index.html" class="logo">INJAIRU.</a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+        type="button"
+      >
+        ☰
+      </button>
+
+      <div class="main-nav" id="main-navigation">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../day-04/index.html">Articles</a>
+        <a href="../day-02/index.html">Recipes</a>
+        <a href="../day-03/index.html">Contact</a>
+      </div>
+    </nav>
     <header>
       <h1>Contact Me</h1>
       <p>Have a project in mind? Send me a message.</p>
@@ -40,5 +63,7 @@
         <button type="submit">Send Message</button>
       </form>
     </main>
+
+    <script src="../navigation.js"></script>
   </body>
 </html>

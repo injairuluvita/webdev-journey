@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Article</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../navigation.css" />
   </head>
   <body>
+    <nav class="site-header">
+      <a href="../index.html" class="logo">INJAIRU.</a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+        type="button"
+      >
+        ☰
+      </button>
+
+      <div class="main-nav" id="main-navigation">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../day-04/index.html">Articles</a>
+        <a href="../day-02/index.html">Recipes</a>
+        <a href="../day-03/index.html">Contact</a>
+      </div>
+    </nav>
     <article>
       <h1>Learning Tech One Bug at a Time</h1>
       <p>
@@ -35,5 +58,7 @@
         <figcaption>The contact form I built on Day 3.</figcaption>
       </figure>
     </article>
+
+    <script src="../navigation.js"></script>
   </body>
 </html>

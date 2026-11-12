@@ -4,18 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Injairu Luvita | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navigation.css" />
   </head>
   <body>
-    <h1>My Web Development Journey</h1>
-    <p>Six small projects from my first week of learning web development.</p>
+    <nav class="site-header">
+      <a href="index.html" class="logo">INJAIRU.</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+        type="button"
+      >
+        ☰
+      </button>
 
-<ul>
-  <li><a href="day-01/index.html">Day 1: Profile page</a></li>
-  <li><a href="day-02/index.html">Day 2: Recipe page</a></li>
-  <li><a href="day-03/index.html">Day 3: Contact form</a></li>
-  <li><a href="day-04/index.html">Day 4: Article page</a></li>
-  <li><a href="day-05/index.html">Day 5: Product cards</a></li>
-  <li><a href="day-06/index.html">Day 6: Navigation bar and hero</a></li>
-</ul>
+      <div class="main-nav" id="main-navigation">
+        <a href="index.html">Home</a>
+        <a href="day-01/index.html">About</a>
+        <a href="#projects">Projects</a>
+        <a href="day-04/index.html">Articles</a>
+        <a href="day-02/index.html">Recipes</a>
+        <a href="day-03/index.html">Contact</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <h1>Creating. Learning. Building.</h1>
+      <h2>I'm Injairu Luvita.</h2>
+      <p>
+        A student, creative thinker and aspiring developer exploring the world
+        of technology, one project at a time.
+      </p>
+      <div class="hero-buttons">
+        <a href="day-05/index.html" class="btn btn-primary">
+          Explore My Work
+        </a>
+
+        <a href="day-01/index.html" class="btn btn-secondary"> About Me </a>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <p>
+        A collection of things I've been learning, creating and building along
+        my web development journey.
+      </p>
+      <div class="project-card">
+        <h3>Creator Store</h3>
+
+        <p>
+          A mini online store featuring product cards, a functional shopping
+          cart and quantity controls.
+        </p>
+
+        <a href="day-05/index.html">View Project →</a>
+      </div>
+    </section>
+    
+    <script src="navigation.js"></script>
   </body>
 </html>
